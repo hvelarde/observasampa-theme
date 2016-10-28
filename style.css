@@ -554,14 +554,34 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 }
 /********** Footer **********/
 footer {
-  background: #ffffff;
   padding: 2em 2em 0 2em;
   font-size: 80%;
-  border-top: 1px solid #ccc;
 }
 footer p {
   margin-bottom: 2em;
 }
+
+  .footerContainer{
+    width: 100%;
+    height: 500px;
+    background: #eee;
+    margin: 10px 20px 10px 20px;
+  }
+  .footerContainer option,a,span{
+    color: #000 !important;
+  }
+  #footerSecondRow{
+      margin-right: 20px;
+      margin-top: 50px;
+  }
+  #footerPrimaryRow{
+    margin-right: 20px;
+  }
+  .footerTitleItem{
+      font-weight: bold;
+      margin:  10px 0px 10px 0px;
+  }
+
 #footer-info {
   padding-top: 10px;
 }
@@ -668,6 +688,8 @@ footer p {
     width: 100% !important;
     margin-left: -100% !important;
   }
+  /*Footer Properties*/
+
   footer {
     padding-left: 2em;
     padding-right: 2em;

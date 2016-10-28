@@ -44,7 +44,7 @@
         <header id="main-header" role="banner">
             <div>
                 <div class="primary-header">header primário</div>
-                <div class="row">
+                <div class="row" id="second-header">
                         <div id="logo" class="col-md-4">
                             <a href="#" title="#">
                                 <img alt="Logo"  accesskey="1" src="img/logo.png" />
@@ -230,24 +230,87 @@
 
     <!-- Footer --> 
         <footer role="contentinfo">
-            <div class="row">
-        <div class="col-md-3"><img style="top: 70%" src="http://gestaourbana.prefeitura.sp.gov.br/wp-content/themes/gestaourbana-1.2/images/logo_prefeitura_sem_smdu_footer.jpg"></div>
-        <div class="col-md-3"><h4>CONTATO</h4>
-        Secretaria Municipal de Desenvolvimento Urbano (SMDU)
-                Prefeitura de São Paulo
-                Rua São Bento, 405, Centro - 17º e 18º andar
-                CEP 01011-100 - São Paulo - SP
-                Telefone: (11) 3113 7500
-        </div>
-        <div class="col-md-3">Todo o conteúdo do site está disponível sob licença Creative Commons. Acesse a página Desenvolvimento e saiba mais.</div>
-        <div class="col-md-3">
-            <a href="https://www.facebook.com/pmsp.smdu" target="_blank"><img src="http://gestaourbana.prefeitura.sp.gov.br/wp-content/themes/gestaourbana-1.2/images/btn-facebook-27x27.png"></a>
-            <a href="https://twitter.com/pmsp_smdu" target="_blank"><img src="http://gestaourbana.prefeitura.sp.gov.br/wp-content/themes/gestaourbana-1.2/images/btn-twitter-27x27.png"></a>
-            <a href="http://www.youtube.com/user/pmspsmdu" target="_blank"><img src="http://gestaourbana.prefeitura.sp.gov.br/wp-content/themes/gestaourbana-1.2/images/icon-youtube.png"></a>
-        </div>
-        
-    </div>
-          
+        <div class="footerContainer">
+            <div class="row" id="footerFirstRow">
+                <div class="col-md-3">
+                    <span class="footerTitleItem">PREFEITURA DE SÃO PAULO</span><br><br>
+                    <select name="cmb_secretarias" id="cmb_secretarias">
+                        <option>Secretarias</option>
+                    </select><br><br>
+                    <select name="cmb_subprefeituras" id="cmb_subprefeituras">
+                        <option>Subprefeituras</option>
+                    </select><br><br>
+                    <select name="cmb_outros_orgaos" id="cmb_outros_orgaos">
+                        <option>Outros Órgãos</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <span class="footerTitleItem">PLATAFORMAS DE PARTICIPAÇÃO E TRANSPARÊNCIA</span><br><br>
+                    <a href="">Busca Saúde</a><br>
+                    <a href="">Combate Assédio Sexual</a><br>
+                    <a href="">GeoSampa</a><br>
+                    <a href="">Gestão Urbana</a><br>
+                    <a href="">Infocidade</a><br>
+                    <a href="">Mapas e Serviços</a><br>
+                    <a href="">Mobilidade Segura</a><br>
+                    <a href="">Observa Sampa</a><br>
+                    <a href="">Planeja Sampa</a><br>
+                    <a href="">São Paulo Aberta</a><br>
+                    <a href="">SPCultura</a>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <span class="footerTitleItem">CONSULTAS</span> <br><br>   
+                        <a href="">Leis Municipais</a><br>
+                        <a href="">Pesquisas de Processos</a><br>
+                        <a href="">Licitações</a><br>
+                        <a href="">Ata de Registros de Preços</a><br>
+                        <a href="">Diário Oficial</a>
+                    </div><br><br>
+                    <div class="row">
+                        <span class="footerTitleItem">SÃO PAULO PARA</span> <br><br>
+                        <a href="">Cidadão</a><br>
+                        <a href="">Empresa</a><br>
+                        <a href="">Turista</a><br>
+                        <a href="">Servidor</a><br>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <span class="footerTitleItem">TRANSPARÊNCIA</span> <br><br>   
+                        <a href="">Portal da Transparência</a><br>
+                        <a href="">Dados Abertos</a><br>
+                    </div><br><br>
+                    <div class="row">
+                        <span class="footerTitleItem">SERVIÇOS AOS CIDADÃOS</span> <br><br>
+                        <a href="">Guia de Serviços</a><br>
+                        <a href="">Aplicativos</a><br>
+                        <a href="">Procon Paulistano</a><br>
+                        <a href="">Pedido de Informação</a><br>
+                        <a href="">Central 156</a><br>
+                        <a href="">Praças de atendimento das Subprefeituras</a><br>
+                        <a href="">Ouvidoria Geral do Município: 0800 175717</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row" id="footerSecondRow">
+                <div class="col-md-3"><img style="top: 70%" src="http://gestaourbana.prefeitura.sp.gov.br/wp-content/themes/gestaourbana-1.2/images/logo_prefeitura_sem_smdu_footer.jpg"></div>
+                <div class="col-md-3"><h4>CONTATO</h4>
+                Secretaria Municipal de Desenvolvimento Urbano (SMDU)
+                        Prefeitura de São Paulo
+                        Rua São Bento, 405, Centro - 17º e 18º andar
+                        CEP 01011-100 - São Paulo - SP
+                        Telefone: (11) 3113 7500
+                </div>
+                <div class="col-md-3">Todo o conteúdo do site está disponível sob licença Creative Commons. Acesse a página Desenvolvimento e saiba mais.</div>
+                <div class="col-md-3">
+                    <a href="https://www.facebook.com/pmsp.smdu" target="_blank"><img src="http://gestaourbana.prefeitura.sp.gov.br/wp-content/themes/gestaourbana-1.2/images/btn-facebook-27x27.png"></a>
+                    <a href="https://twitter.com/pmsp_smdu" target="_blank"><img src="http://gestaourbana.prefeitura.sp.gov.br/wp-content/themes/gestaourbana-1.2/images/btn-twitter-27x27.png"></a>
+                    <a href="http://www.youtube.com/user/pmspsmdu" target="_blank"><img src="http://gestaourbana.prefeitura.sp.gov.br/wp-content/themes/gestaourbana-1.2/images/icon-youtube.png"></a>
+                </div>
+            </div>
+        </div>  
         </footer>
 
     </div>
