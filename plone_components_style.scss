@@ -1,0 +1,44 @@
+/*  NEWS Tiles  */
+
+.newsStyle{
+	img,a{
+		width: 100%;
+	}
+	img{
+		height: 15em;
+	}
+	h2{
+		background-color: rgba(0, 0, 0, 0.6);
+		text-align: inherit;
+		position: absolute;
+		top: 60%;
+		height: 4em;
+		font-weight: bold;
+		font-size: 1.2em;
+		a{
+			color: #fff !important;
+		} 
+	}
+}
+
+.galleryCarouselStyle{
+	.galleria-info{
+		position: relative;
+	    top: 10em;
+	    width: 40%;
+	    left: 7em;
+	    text-align: left;
+	}
+	.galleria-info-title{
+		position: absolute;
+	    /* height: 5em; */
+	    background-color: rgba(0,0,0,0.6);
+	    /* top: 0em; */
+	    /* color: #fff; */
+	    padding: 25px;
+	    a{
+	    	color: #fff !important;
+	    }
+	}
+
+}

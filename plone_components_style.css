@@ -1,0 +1,33 @@
+/*  NEWS Tiles  */
+.newsStyle img, .newsStyle a {
+  width: 100%; }
+.newsStyle img {
+  height: 15em; }
+.newsStyle h2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: inherit;
+  position: absolute;
+  top: 60%;
+  height: 4em;
+  font-weight: bold;
+  font-size: 1.2em; }
+  .newsStyle h2 a {
+    color: #fff !important; }
+
+.galleryCarouselStyle .galleria-info {
+  position: relative;
+  top: 10em;
+  width: 40%;
+  left: 7em;
+  text-align: left; }
+.galleryCarouselStyle .galleria-info-title {
+  position: absolute;
+  /* height: 5em; */
+  background-color: rgba(0, 0, 0, 0.6);
+  /* top: 0em; */
+  /* color: #fff; */
+  padding: 25px; }
+  .galleryCarouselStyle .galleria-info-title a {
+    color: #fff !important; }
+
+/*# sourceMappingURL=plone_components_style.css.map */

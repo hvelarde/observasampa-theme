@@ -505,6 +505,8 @@ footer {
   margin-right: 20px;
   margin-top: 50px;
   padding-top: 20px; }
+  #footerSecondRow .col-md-3:nth-child(4) img {
+    width: 40px; }
 
 #footerPrimaryRow {
   margin-right: 20px; }
