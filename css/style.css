@@ -649,5 +649,9 @@ footer {
       color: #ffffff; }
   .contraste .galleria-container {
     background: #000000; }
+  .contraste #portal-breadcrumbs {
+    color: #ffffff; }
+    .contraste #portal-breadcrumbs a {
+      color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
