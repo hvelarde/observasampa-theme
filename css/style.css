@@ -220,7 +220,8 @@ header {
   float: right; }
 
 #acessibilidade a {
-  margin-right: 2em; }
+  margin-right: 2em;
+  cursor: pointer; }
 
 #second-header .col-md-4:nth-child(2) {
   position: relative;
@@ -499,7 +500,7 @@ footer {
   background: #eee;
   padding: 10px 20px 10px 20px; }
   .footerContainer option, .footerContainer a, .footerContainer span {
-    color: #000 !important; }
+    color: #000; }
 
 #footerSecondRow {
   margin-right: 20px;
@@ -627,5 +628,24 @@ footer {
 
 .item100width img {
   width: 100%; }
+
+/* CONTRASTE */
+.contraste {
+  color: #ffffff !important;
+  margin: 0;
+  background: #000000; }
+  .contraste #main-header a, .contraste #main-header option {
+    color: #fff; }
+  .contraste #main-header .primary-header {
+    background-color: #04c; }
+  .contraste #main-header nav ul {
+    background: #000000;
+    color: #ffffff; }
+  .contraste header a:link, .contraste header a:hover, .contraste header a:visited {
+    color: #ffffff !important; }
+  .contraste .footerContainer {
+    background: #000000; }
+    .contraste .footerContainer option, .contraste .footerContainer a, .contraste .footerContainer span, .contraste .footerContainer h4 {
+      color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */

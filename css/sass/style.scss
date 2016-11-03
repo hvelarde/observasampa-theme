@@ -293,6 +293,7 @@ header {
 }
 #acessibilidade a{
   margin-right: 2em;
+  cursor: pointer;
 }
 
 #second-header{
@@ -603,7 +604,7 @@ footer {
     background: #eee;
     padding: 10px 20px 10px 20px;
     option, a, span{
-        color: #000 !important;
+        color: #000;
     }
   }
   #footerSecondRow{
@@ -754,4 +755,35 @@ footer {
   img{
     width: 100%;
   }
+}
+
+/* CONTRASTE */
+
+.contraste{
+    color: #ffffff !important;
+    margin: 0;
+    background: #000000;
+    #main-header{
+      a,option{
+        color: #fff;
+      }
+      .primary-header{
+        background-color: #04c;
+      }
+      nav ul{
+          background: #000000;
+          color: #ffffff;
+      }
+    }
+    header a{
+      &:link, &:hover, &:visited {
+        color: #ffffff !important;
+      }
+    }
+    .footerContainer{
+        background: #000000;
+        option,a,span,h4{
+          color: #ffffff;
+        }
+    }
 }
