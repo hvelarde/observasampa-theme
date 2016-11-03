@@ -647,5 +647,7 @@ footer {
     background: #000000; }
     .contraste .footerContainer option, .contraste .footerContainer a, .contraste .footerContainer span, .contraste .footerContainer h4 {
       color: #ffffff; }
+  .contraste .galleria-container {
+    background: #000000; }
 
 /*# sourceMappingURL=style.css.map */
