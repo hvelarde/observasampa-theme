@@ -475,16 +475,31 @@ h3 {
 .cover-carousel-tile {
   margin-bottom: 2em;
 }
+.galleria-container {
+  max-height: 280px;
+  img {
+    min-width: 100% !important;
+    left: 0 !important;
+    height: auto !important;
+  }
+}
 .galleria-stage {
   top: 0;
   left: 0;
   right: 0;
+  bottom: 0;
+}
+.galleria-info {
+  left: 0 !important;
+  top: 3em !important;
+  font-size: 14px;
+  font-size: 1.3vw;
 }
 .galleria-info-text {
   padding: 0;
 }
 .galleria-info-title {
-  font: bold 2em/1.1 'Open Sans', sans-serif;
+  font: bold 1.5em/1.1 'Open Sans', sans-serif;
   font-weight: normal;
 }
 .galleria-info-description {
@@ -492,10 +507,30 @@ h3 {
   margin: 0;
   color: #333333;
 }
+.galleria-thumbnails-container {
+  bottom: 10px;
+}
 .slideshow{
     ul, ul li{
         list-style: none !important;
     }
+}
+/* news */
+.newsStyle {
+  h2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: inherit;
+    position: absolute;
+    padding: 0.5em;
+    bottom: 0;
+    font-weight: bold;
+    overflow: visible;
+    font-size: 1.2em;
+    height: 35%;
+  }
+  img {
+    margin: 0 !important;
+  }
 }
 /*********** Portlets ***********/
 /* general styles */
@@ -794,7 +829,7 @@ footer {
         }
     }
     .galleria-container{
-      background: #000000;
+      background: #000000;      
     }
     #portal-breadcrumbs{
       a{

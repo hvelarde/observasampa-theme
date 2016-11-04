@@ -1,15 +1,15 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-/******************************************
-
- Change values and compile your .less file
- This will generate your final .css file
-
+/******************************************
+
+ Change values and compile your .less file
+ This will generate your final .css file
+
 ******************************************/
-/******************************************
-
-  You dont need to edit the lines below
-
+/******************************************
+
+  You dont need to edit the lines below
+
 ******************************************/
 /**** GRID ****/
 /* Very very simple, semantic and human friendly columns */
@@ -49,7 +49,6 @@
 @media (min-width: 600px) {
   .tile {
     margin: 1px; }
-
   .col-md-1,
   .col-md-2,
   .col-md-3,
@@ -63,42 +62,31 @@
   .col-md-11,
   .col-md-12 {
     float: left; }
-
   .col-md-12 {
     width: 100%; }
-
   .col-md-11 {
     width: 91.66666667%; }
-
   .col-md-10 {
     width: 83.33333333%; }
-
   .col-md-9 {
     width: 75%; }
-
   .col-md-8 {
     width: 66.66666667%; }
-
   .col-md-7 {
     width: 58.33333333%; }
-
   .col-md-6 {
     width: 50%; }
-
   .col-md-5 {
     width: 41.66666667%; }
-
   .col-md-4 {
     width: 33.33333333%; }
-
   .col-md-3 {
     width: 25%; }
-
   .col-md-2 {
     width: 16.66666667%; }
-
   .col-md-1 {
     width: 8.33333333%; } }
+
 /**** Basic Styles ****/
 .gradient {
   background: -webkit-linear-gradient(#f5f5f5, #ffffff);
@@ -129,7 +117,7 @@ body {
   margin: 0;
   background: #fff; }
 
-/*Definindo propriedades padr├Áes para abstrair*/
+/*Definindo propriedades padrões para abstrair*/
 .propertiesCommon, a:visited, a:link, a:hover, #content a:link, dl.portlet a:link {
   color: #008044;
   border-bottom: none; }
@@ -226,6 +214,7 @@ header {
 #second-header .col-md-4:nth-child(2) {
   position: relative;
   top: 2em; }
+
 #second-header .col-md-4:nth-child(3) {
   position: relative;
   top: 3em; }
@@ -385,16 +374,30 @@ h3 {
 .cover-carousel-tile {
   margin-bottom: 2em; }
 
+.galleria-container {
+  max-height: 280px; }
+  .galleria-container img {
+    min-width: 100% !important;
+    left: 0 !important;
+    height: auto !important; }
+
 .galleria-stage {
   top: 0;
   left: 0;
-  right: 0; }
+  right: 0;
+  bottom: 0; }
+
+.galleria-info {
+  left: 0 !important;
+  top: 3em !important;
+  font-size: 14px;
+  font-size: 1.3vw; }
 
 .galleria-info-text {
   padding: 0; }
 
 .galleria-info-title {
-  font: bold 2em/1.1 'Open Sans', sans-serif;
+  font: bold 1.5em/1.1 'Open Sans', sans-serif;
   font-weight: normal; }
 
 .galleria-info-description {
@@ -402,8 +405,26 @@ h3 {
   margin: 0;
   color: #333333; }
 
+.galleria-thumbnails-container {
+  bottom: 10px; }
+
 .slideshow ul, .slideshow ul li {
   list-style: none !important; }
+
+/* news */
+.newsStyle h2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: inherit;
+  position: absolute;
+  padding: 0.5em;
+  bottom: 0;
+  font-weight: bold;
+  overflow: visible;
+  font-size: 1.2em;
+  height: 35%; }
+
+.newsStyle img {
+  margin: 0 !important; }
 
 /*********** Portlets ***********/
 /* general styles */
@@ -426,17 +447,21 @@ dl.portlet dt.portletHeader a {
 aside dl, aside dd, aside ul {
   padding: 0;
   margin: 0; }
+
 aside a {
   text-decoration: none; }
 
 /* portlet navigation */
 .portletNavigationTree ul {
   margin: 0; }
+
 .portletNavigationTree li {
   list-style-position: inside; }
+
 .portletNavigationTree .navTreeLevel0 > li {
   border-bottom: #d9d9d9 1px solid;
   list-style: none; }
+
 .portletNavigationTree a {
   display: block;
   padding: 0.3em 0.3em 0.3em 0.5em; }
@@ -531,20 +556,16 @@ footer {
 @media (max-width: 767px) {
   body {
     background-image: none; }
-
   #wrapper {
     width: 90%; }
-
   #main {
     margin-top: 4em;
     display: block; }
-
   div.cell {
     float: none;
     left: 100%;
     width: 100% !important;
     margin-left: -100% !important; }
-
   #logo {
     float: right; }
     #logo a img {
@@ -553,16 +574,12 @@ footer {
       height: auto;
       top: 0;
       position: absolute; }
-
   #portal-breadcrumbs {
     display: none; }
-
   #main-header {
     height: 45px; }
-
   #portal-searchbox {
     display: none; }
-
   #btnav {
     width: 153px;
     height: 40px;
@@ -571,54 +588,47 @@ footer {
     position: absolute; }
     #btnav ul {
       display: none; }
-
   ul.submenu {
     display: none !important; }
-
   nav li {
     display: block;
     height: auto;
     width: 100%; }
-
   div:hover#btnav ul {
     padding-top: 10px;
     display: block;
     top: 40px;
     position: absolute;
     background: #ffffff; }
-
   div:hover#btnav ul li a {
     padding: 10px; }
-
   #btnav i {
     display: block;
     font-size: 2em;
     padding-top: 10px;
     color: #888; }
-
   header > div {
     width: 93%; }
-
   #main-content,
   #column-one,
   #column-two {
     display: block;
     float: none;
     width: 100%; } }
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #logo {
     width: 70%; }
-
   div.cell {
     float: none;
     width: 100% !important;
     margin-left: -100% !important; }
-
   /*Footer Properties*/
   footer {
     padding-left: 2em;
     padding-right: 2em; } }
+
 .selectGrey {
   background: #ccc;
   font-weight: bold;
@@ -657,5 +667,3 @@ footer {
       color: #ffffff; }
   .contraste #content a, .contraste #content p, .contraste #content span, .contraste #content h1, .contraste #content h2, .contraste #content h3, .contraste #content h4, .contraste #content h5, .contraste #content h6, .contraste .documentByLine a, .contraste .documentByLine p, .contraste .documentByLine span, .contraste .documentByLine h1, .contraste .documentByLine h2, .contraste .documentByLine h3, .contraste .documentByLine h4, .contraste .documentByLine h5, .contraste .documentByLine h6, .contraste .documentFirstHeading a, .contraste .documentFirstHeading p, .contraste .documentFirstHeading span, .contraste .documentFirstHeading h1, .contraste .documentFirstHeading h2, .contraste .documentFirstHeading h3, .contraste .documentFirstHeading h4, .contraste .documentFirstHeading h5, .contraste .documentFirstHeading h6 {
     color: #ffffff !important; }
-
-/*# sourceMappingURL=style.css.map */
