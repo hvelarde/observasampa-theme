@@ -785,6 +785,13 @@ footer {
         option,a,span,h4{
           color: #ffffff;
         }
+        #footerSecondRow{
+            .col-md-3{
+              &:nth-child(1) img{
+                background-color: #fff;
+              }
+            }
+        }
     }
     .galleria-container{
       background: #000000;
@@ -795,4 +802,11 @@ footer {
       }
        color: #ffffff;
     }
+    #content, .documentByLine, .documentFirstHeading{
+        
+        a,p,span,h1,h2,h3,h4,h5,h6{
+          color: #ffffff !important;   
+        }
+    }
+
 }
