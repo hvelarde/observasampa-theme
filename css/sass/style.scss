@@ -32,7 +32,7 @@
   vertical-align: top;
 }
 /* margin collumns */
-#main-content {
+/*#main-content {
   padding: 2%;
 }
 #column-one {
@@ -40,7 +40,7 @@
 }
 #column-two {
   padding: 2%;
-}
+}*/
 #portal-column-content {
   width: 100%;
   margin-left: -100%;
@@ -391,6 +391,10 @@ nav {
 ul.submenu a.state-published:hover {
   color: #001a0e !important;
 }
+
+nav ul li a.plain{
+  font-weight:bold;
+}
 /********** Content **********/
 /* breadcrumb */
 #portal-breadcrumbs {
@@ -626,7 +630,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 }
 /********** Footer **********/
 footer {
-  padding: 2em 2em 0 2em;
+  //padding: 2em 2em 0 2em;
   font-size: 80%;
   p {
       margin-bottom: 2em;
@@ -637,7 +641,7 @@ footer {
     width: 100%;
     height: 500px;
     background: #eee;
-    padding: 10px 20px 10px 20px;
+    padding: 20px 30px 20px 30px;
     option, a, span{
         color: #000;
     }
