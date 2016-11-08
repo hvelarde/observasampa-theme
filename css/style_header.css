@@ -1,0 +1,293 @@
+/* header */
+header {
+  color: #666666;
+  background: transparent; }
+  header a:link, header a:hover, header a:visited {
+    color: #666666;
+    text-decoration: none; }
+
+.primary-header {
+  width: 100%;
+  background-color: #cccccc;
+  padding: 5px 10px 30px;
+  margin: 15px 0px 0px 0px; }
+
+/* banner */
+#logo {
+  float: left; }
+  #logo a {
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1em; }
+  #logo img {
+    float: left;
+    margin: 0.2em 1em 0.2em 0;
+    max-height: 200px; }
+
+/* search */
+#portal-searchbox {
+  width: 300px;
+  height: 30px;
+  float: left;
+  text-align: right;
+  padding: 0;
+  border-radius: 2px;
+  background-color: #ccc; }
+  #portal-searchbox input.searchField {
+    border: 0;
+    padding: 0.5em 0.2em 0.5em 0.2em;
+    width: 81%;
+    background: transparent; }
+  #portal-searchbox input.searchButton {
+    padding: 0.5em;
+    border: 0;
+    background: transparent;
+    text-indent: -99999px;
+    width: 35px; }
+
+#LSResult {
+  margin-top: 0; }
+
+#acessibilidade {
+  float: right; }
+
+#acessibilidade a {
+  margin-right: 2em;
+  cursor: pointer; }
+
+#second-header .col-md-4:nth-child(2) {
+  position: relative;
+  top: 2em; }
+#second-header .col-md-4:nth-child(3) {
+  position: relative;
+  top: 3em; }
+
+/* Navigation */
+nav {
+  clear: both;
+  font-size: 0.9em;
+  background: transparent;
+  /* dropdown compatibility */ }
+  nav ul {
+    background: #ffffff;
+    background: transparent;
+    color: #666666;
+    /*submenus cor*/ }
+    nav ul li:nth-child(1) a::before {
+      background: #d90013; }
+    nav ul li:nth-child(2) a::before {
+      background: #f38003; }
+    nav ul li:nth-child(3) a::before {
+      background: #008044; }
+    nav ul li:nth-child(4) a::before {
+      background: #339fd6; }
+    nav ul li:nth-child(1) .submenu li a::before {
+      background: #d90013; }
+    nav ul li:nth-child(1) .submenu li a {
+      color: #000; }
+    nav ul li:nth-child(2) .submenu li a::before {
+      background: #f38003; }
+    nav ul li:nth-child(2) .submenu li a {
+      color: #000; }
+    nav ul li:nth-child(3) .submenu li a::before {
+      background: #008044; }
+    nav ul li:nth-child(3) .submenu li a {
+      color: #000; }
+    nav ul li:nth-child(4) .submenu li a::before {
+      background: #339fd6; }
+    nav ul li:nth-child(4) .submenu li a {
+      color: #000; }
+  nav a {
+    padding: 1em;
+    text-decoration: none;
+    min-width: 3em;
+    display: inline-block; }
+  nav li a {
+    line-height: auto;
+    padding: 9px 15px; }
+    nav li a::before {
+      content: " ";
+      width: 10px;
+      height: 10px;
+      margin: 5px;
+      background-color: #000;
+      display: inline-block;
+      vertical-align: middle; }
+  nav li:hover {
+    position: relative; }
+  nav li:hover > ul.submenu {
+    display: block;
+    position: absolute;
+    z-index: 99999;
+    background: #ffffff;
+    background: #F5F5F5;
+    text-align: left;
+    width: 200px;
+    -moz-box-shadow: 0 5px 10px #d6d6d6;
+    -webkit-box-shadow: 0 5px 10px #d6d6d6;
+    box-shadow: 0 5px 10px #d6d6d6; }
+  nav li:first-child a {
+    border-left: 0; }
+  nav ul.submenu a.state-published:hover,
+  nav .selected ul.submenu .state-published {
+    color: #666666; }
+  nav .submenu .submenu {
+    display: none !important; }
+  nav .submenu li a {
+    width: 160px; }
+
+.selected ul.submenu .state-published {
+  color: #008044 !important; }
+
+ul.submenu a.state-published:hover {
+  color: #001a0e !important; }
+
+nav ul li a.plain {
+  font-weight: bold; }
+
+/*********** Portlets ***********/
+/* general styles */
+.portletHeader,
+dl.portlet dt.portletHeader {
+  border-bottom: #d9d9d9 1px solid;
+  font-weight: bold;
+  background: transparent;
+  color: #000000; }
+
+.portletHeader a,
+dl.portlet dt.portletHeader a {
+  color: #000000; }
+
+.portlet {
+  margin-bottom: 2em;
+  padding: 4px 0; }
+
+/* lists inside columns */
+aside dl, aside dd, aside ul {
+  padding: 0;
+  margin: 0; }
+aside a {
+  text-decoration: none; }
+
+/* portlet navigation */
+.portletNavigationTree ul {
+  margin: 0; }
+.portletNavigationTree li {
+  list-style-position: inside; }
+.portletNavigationTree .navTreeLevel0 > li {
+  border-bottom: #d9d9d9 1px solid;
+  list-style: none; }
+.portletNavigationTree a {
+  display: block;
+  padding: 0.3em 0.3em 0.3em 0.5em; }
+  .portletNavigationTree a a:hover {
+    background: #f2f2f2; }
+
+.navTreeLevel2 a {
+  padding-left: 1em; }
+
+.navTreeLevel3 a {
+  padding-left: 2em; }
+
+.navTreeLevel4 a {
+  padding-left: 3em; }
+
+.navTreeLevel5 a {
+  padding-left: 4em; }
+
+.navTreeLevel6 a {
+  padding-left: 5em; }
+
+dl.portlet ul.navTree .navTreeCurrentItem {
+  background: transparent; }
+
+/********** Config bugs *************/
+.label,
+.badge {
+  color: #333333;
+  text-shadow: 0;
+  background-color: transparent; }
+
+.label:empty,
+.badge:empty {
+  display: inline; }
+
+/*Theme Customiser*/
+#portal-title {
+  display: block;
+  font-size: 99%;
+  font-weight: bold;
+  line-height: 30%;
+  margin-top: 6%; }
+
+#header-text {
+  padding-left: 0; }
+
+#portal-description {
+  font-weight: normal;
+  font-size: 45%; }
+
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  #logo {
+    float: right; }
+    #logo a img {
+      margin-top: 5px;
+      width: 2em;
+      height: auto;
+      top: 0;
+      position: absolute; }
+
+  #portal-breadcrumbs {
+    display: none; }
+
+  #main-header {
+    height: 45px; }
+
+  #portal-searchbox {
+    display: none; }
+
+  #btnav {
+    width: 153px;
+    height: 40px;
+    display: block;
+    top: 0;
+    position: absolute; }
+    #btnav ul {
+      display: none; }
+
+  ul.submenu {
+    display: none !important; }
+
+  nav li {
+    display: block;
+    height: auto;
+    width: 100%; }
+
+  div:hover#btnav ul {
+    padding-top: 10px;
+    display: block;
+    top: 40px;
+    position: absolute;
+    background: #ffffff; }
+
+  div:hover#btnav ul li a {
+    padding: 10px; }
+
+  #btnav i {
+    display: block;
+    font-size: 2em;
+    padding-top: 10px;
+    color: #888; }
+
+  header > div {
+    width: 93%; } }
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  #logo {
+    width: 70%; } }
+
+/*# sourceMappingURL=style_header.css.map */

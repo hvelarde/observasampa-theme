@@ -1,0 +1,34 @@
+/* CONTRASTE */
+.contraste {
+  color: #ffffff !important;
+  margin: 0;
+  background: #000000; }
+  .contraste #main-header a, .contraste #main-header option {
+    color: #fff; }
+  .contraste #main-header .primary-header {
+    background-color: #04c; }
+  .contraste #main-header nav ul {
+    background: #000000;
+    color: #ffffff; }
+  .contraste header a:link, .contraste header a:hover, .contraste header a:visited {
+    color: #ffffff !important; }
+  .contraste .footerContainer {
+    background: #000000; }
+    .contraste .footerContainer option, .contraste .footerContainer a, .contraste .footerContainer span, .contraste .footerContainer h4 {
+      color: #ffffff; }
+    .contraste .footerContainer #footerSecondRow .col-md-3:nth-child(1) img {
+      background-color: #fff; }
+  .contraste .galleria-container {
+    background: #000000; }
+  .contraste #portal-breadcrumbs {
+    color: #ffffff; }
+    .contraste #portal-breadcrumbs a {
+      color: #ffffff; }
+  .contraste #content a, .contraste #content p, .contraste #content span, .contraste #content h1, .contraste #content h2, .contraste #content h3, .contraste #content h4, .contraste #content h5, .contraste #content h6, .contraste .documentByLine a, .contraste .documentByLine p, .contraste .documentByLine span, .contraste .documentByLine h1, .contraste .documentByLine h2, .contraste .documentByLine h3, .contraste .documentByLine h4, .contraste .documentByLine h5, .contraste .documentByLine h6, .contraste .documentFirstHeading a, .contraste .documentFirstHeading p, .contraste .documentFirstHeading span, .contraste .documentFirstHeading h1, .contraste .documentFirstHeading h2, .contraste .documentFirstHeading h3, .contraste .documentFirstHeading h4, .contraste .documentFirstHeading h5, .contraste .documentFirstHeading h6 {
+    color: #ffffff !important; }
+
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */
+
+/*# sourceMappingURL=style_alto_contraste.css.map */
