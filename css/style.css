@@ -1,59 +1,370 @@
-/*
-Error: Invalid CSS after "": expected selector, was "<<<<<<< HEAD"
-        on line 232 of css/sass/style.scss
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/******************************************
 
-227:   }
-228:   a{
-229:     color: #fff;
-230:   }
-231: }
-232: <<<<<<< HEAD
-233: =======
-234: /* header *\/
-235: header {
-236:   color: #666666;
-237:   background: transparent;
+ Change values and compile your .less file
+ This will generate your final .css file
 
-Backtrace:
-css/sass/style.scss:232
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1105:in `expr!'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/static_parser.rb:20:in `parse_selector'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:427:in `visit_rule'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"\": expected selector, was \"<<<<<<< HEAD\"\A         on line 232 of css/sass/style.scss\A \A 227:   }\A 228:   a{\A 229:     color: #fff;\A 230:   }\A 231: }\A 232: <<<<<<< HEAD\A 233: =======\A 234: /* header */\A 235: header {\A 236:   color: #666666;\A 237:   background: transparent;"; }
+******************************************/
+/******************************************
+
+  You dont need to edit the lines below
+
+******************************************/
+/**** GRID ****/
+/* Very very simple, semantic and human friendly columns */
+/* Column size */
+#main-content {
+  width: auto; }
+
+#column-one {
+  width: 20%; }
+
+#column-two {
+  width: 20%; }
+
+/* old fashion table layout */
+#main {
+  display: table;
+  width: 100%; }
+
+#main-content, #column-one, #column-two {
+  display: table-cell;
+  vertical-align: top; }
+
+/* margin collumns */
+/*#main-content {
+  padding: 2%;
+}
+#column-one {
+  padding: 2%;
+}
+#column-two {
+  padding: 2%;
+}*/
+#portal-column-content {
+  width: 100%;
+  margin-left: -100%; }
+
+@media (min-width: 600px) {
+  .tile {
+    margin: 1px; }
+
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    float: left; }
+
+  .col-md-12 {
+    width: 100%; }
+
+  .col-md-11 {
+    width: 91.66666667%; }
+
+  .col-md-10 {
+    width: 83.33333333%; }
+
+  .col-md-9 {
+    width: 75%; }
+
+  .col-md-8 {
+    width: 66.66666667%; }
+
+  .col-md-7 {
+    width: 58.33333333%; }
+
+  .col-md-6 {
+    width: 50%; }
+
+  .col-md-5 {
+    width: 41.66666667%; }
+
+  .col-md-4 {
+    width: 33.33333333%; }
+
+  .col-md-3 {
+    width: 25%; }
+
+  .col-md-2 {
+    width: 16.66666667%; }
+
+  .col-md-1 {
+    width: 8.33333333%; } }
+/**** Basic Styles ****/
+.gradient {
+  background: -webkit-linear-gradient(#f5f5f5, #ffffff);
+  /* For Safari */
+  background: -o-linear-gradient(#f5f5f5, #ffffff);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#f5f5f5, #ffffff);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#f5f5f5, #ffffff);
+  /* Standard syntax (must be last) */ }
+
+.wrapper-size {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px; }
+
+.shadow {
+  box-shadow: 0 2px 3px #ccc; }
+
+.text-shadow {
+  text-shadow: 1px 1px 2px #ffffff;
+  -webkit-text-stroke: 1px #666666; }
+
+/********** Basic styles **********/
+body {
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background: #fff; }
+
+/*Definindo propriedades padr├Áes para abstrair*/
+.propertiesCommon, a:visited, a:link, a:hover, #content a:link, dl.portlet a:link {
+  color: #008044;
+  border-bottom: none; }
+
+.propertiesCommonHover, #content a:hover, dl.portlet a:hover {
+  color: #666666; }
+
+#content {
+  margin: 1em 0; }
+
+.clear {
+  clear: both; }
+
+/********** Main container **********/
+#wrapper {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px; }
+
+#main {
+  background: transparent; }
+
+#user {
+  float: right; }
+
+/********** Top **********/
+#portal-personaltools {
+  position: absolute;
+  background: #008044;
+  color: #fff; }
+  #portal-personaltools dd {
+    background: #008044; }
+    #portal-personaltools dd a {
+      color: #fff; }
+  #portal-personaltools a {
+    color: #fff; }
+
+/********** Content **********/
+/* breadcrumb */
+#portal-breadcrumbs {
+  font-size: 80%;
+  clear: both;
+  color: #737373; }
+
+#portal-breadcrumbs a,
+.breadcrumbSeparator {
+  color: #737373; }
+
+.section-front-page #portal-breadcrumbs {
+  display: none; }
+
+/* text styles */
+p {
+  line-height: 1.4em;
+  font-family: arial, helvetica, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal; }
+
+h1 {
+  color: #000000;
+  border: none;
+  margin-bottom: 0.6em;
+  margin-top: 0;
+  font-size: 2.5em;
+  line-height: 1em; }
+
+h2 {
+  color: #000000;
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
+  margin-bottom: 0.3em;
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1.15em;
+  line-height: 1.3em;
+  margin-bottom: 0.5em; }
+
+#content {
+  margin: 1em -1em; }
+  #content .documentDescription, #content #description {
+    color: #4d4d4d;
+    font-weight: normal;
+    margin-bottom: 1em; }
+
+/***** Fine adjustments ****/
+div.row {
+  margin: 1em 0; }
+
+/********** Tiles **********/
+.tile {
+  margin: 1em; }
+  .tile img {
+    max-width: 100%;
+    height: auto; }
+  .tile .description {
+    font-size: 0.9em;
+    color: #777; }
+  .tile a {
+    color: #222222 !important; }
+
+.tile-header {
+  border-bottom: 1px solid #00a95a;
+  font-size: 0.8em;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em; }
+  .tile-header h1, .tile-header h2, .tile-header h3, .tile-header h4 {
+    color: #008044; }
+
+.collection-item {
+  margin-bottom: 2em; }
+
+/* galeria */
+.cover-carousel-tile {
+  margin-bottom: 2em; }
+
+.galleria-container {
+  max-height: 280px; }
+  .galleria-container img {
+    min-width: 100% !important;
+    left: 0 !important;
+    height: auto !important; }
+
+.galleria-stage {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.galleria-info {
+  left: 0 !important;
+  top: 3em !important;
+  font-size: 14px;
+  font-size: 1.3vw; }
+
+.galleria-info-text {
+  padding: 0; }
+
+.galleria-info-title {
+  font: bold 1.5em/1.1 'Open Sans', sans-serif;
+  font-weight: normal; }
+
+.galleria-info-description {
+  font: normal 1em/1.4 arial, helvetica, sans-serif;
+  margin: 0;
+  color: #333333; }
+
+.galleria-thumbnails-container {
+  bottom: 10px; }
+
+.slideshow ul, .slideshow ul li {
+  list-style: none !important; }
+
+/* news */
+.newsStyle h2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: inherit;
+  position: absolute;
+  padding: 0.5em;
+  bottom: 0;
+  font-weight: bold;
+  overflow: visible;
+  font-size: 1.2em;
+  height: 35%;
+  width: calc(100% - 1em) !important; }
+.newsStyle img {
+  margin: 0 !important; }
+
+/********** Config bugs *************/
+.label,
+.badge {
+  color: #333333;
+  text-shadow: 0;
+  background-color: transparent; }
+
+.label:empty,
+.badge:empty {
+  display: inline; }
+
+/*Theme Customiser*/
+#portal-title {
+  display: block;
+  font-size: 99%;
+  font-weight: bold;
+  line-height: 30%;
+  margin-top: 6%; }
+
+#header-text {
+  padding-left: 0; }
+
+#portal-description {
+  font-weight: normal;
+  font-size: 45%; }
+
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {
+    background-image: none; }
+
+  #wrapper {
+    width: 90%; }
+
+  #main {
+    margin-top: 4em;
+    display: block; }
+
+  div.cell {
+    float: none;
+    left: 100%;
+    width: 100% !important;
+    margin-left: -100% !important; }
+
+  #main-content,
+  #column-one,
+  #column-two {
+    display: block;
+    float: none;
+    width: 100%; } }
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  div.cell {
+    float: none;
+    width: 100% !important;
+    margin-left: -100% !important; } }
+.selectGrey {
+  background: #ccc;
+  font-weight: bold;
+  width: 200px;
+  height: 2em;
+  border-style: hidden; }
+
+.item100width img {
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
