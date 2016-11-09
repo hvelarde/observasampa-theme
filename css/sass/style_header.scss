@@ -12,10 +12,12 @@ header {
 }
 
 .primary-header {
-    width: 100%;
+    width: calc(100% - 20px);
     background-color: #cccccc;
     padding: 5px 10px 30px;
     margin: 15px 0px 0px 0px;
+    display: inline-block;
+
 }
 /* banner */
 #logo {
@@ -322,7 +324,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     color: #888;
   }
   header > div {
-    width: 93%;
+    width: 100%;
   }
 
 }
