@@ -1,15 +1,15 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-/******************************************
-
- Change values and compile your .less file
- This will generate your final .css file
-
+/******************************************
+
+ Change values and compile your .less file
+ This will generate your final .css file
+
 ******************************************/
-/******************************************
-
-  You dont need to edit the lines below
-
+/******************************************
+
+  You dont need to edit the lines below
+
 ******************************************/
 /**** GRID ****/
 /* Very very simple, semantic and human friendly columns */
@@ -33,14 +33,14 @@
   vertical-align: top; }
 
 /* margin collumns */
-/*#main-content {
-  padding: 2%;
-}
-#column-one {
-  padding: 2%;
-}
-#column-two {
-  padding: 2%;
+/*#main-content {
+  padding: 2%;
+}
+#column-one {
+  padding: 2%;
+}
+#column-two {
+  padding: 2%;
 }*/
 #portal-column-content {
   width: 100%;
@@ -49,7 +49,6 @@
 @media (min-width: 600px) {
   .tile {
     margin: 1px; }
-
   .col-md-1,
   .col-md-2,
   .col-md-3,
@@ -63,42 +62,31 @@
   .col-md-11,
   .col-md-12 {
     float: left; }
-
   .col-md-12 {
     width: 100%; }
-
   .col-md-11 {
     width: 91.66666667%; }
-
   .col-md-10 {
     width: 83.33333333%; }
-
   .col-md-9 {
     width: 75%; }
-
   .col-md-8 {
     width: 66.66666667%; }
-
   .col-md-7 {
     width: 58.33333333%; }
-
   .col-md-6 {
     width: 50%; }
-
   .col-md-5 {
     width: 41.66666667%; }
-
   .col-md-4 {
     width: 33.33333333%; }
-
   .col-md-3 {
     width: 25%; }
-
   .col-md-2 {
     width: 16.66666667%; }
-
   .col-md-1 {
     width: 8.33333333%; } }
+
 /**** Basic Styles ****/
 .gradient {
   background: -webkit-linear-gradient(#f5f5f5, #ffffff);
@@ -129,7 +117,7 @@ body {
   margin: 0;
   background: #fff; }
 
-/*Definindo propriedades padr├Áes para abstrair*/
+/*Definindo propriedades padrões para abstrair*/
 .propertiesCommon, a:visited, a:link, a:hover, #content a:link, dl.portlet a:link {
   color: #008044;
   border-bottom: none; }
@@ -297,6 +285,7 @@ div.row {
   font-size: 1.2em;
   height: 35%;
   width: calc(100% - 1em) !important; }
+
 .newsStyle img {
   margin: 0 !important; }
 
@@ -331,40 +320,37 @@ div.row {
 @media (max-width: 767px) {
   body {
     background-image: none; }
-
   #wrapper {
-    width: 90%; }
-
+    width: calc(100% - 40px); }
   #main {
     margin-top: 4em;
     display: block; }
-
   div.cell {
     float: none;
     left: 100%;
     width: 100% !important;
     margin-left: -100% !important; }
-
   #main-content,
   #column-one,
   #column-two {
     display: block;
     float: none;
     width: 100%; } }
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
   div.cell {
     float: none;
     width: 100% !important;
     margin-left: -100% !important; } }
+
 .selectGrey {
   background: #ccc;
   font-weight: bold;
-  width: 200px;
+  width: 180px;
+  max-width: 50%;
   height: 2em;
   border-style: hidden; }
 
 .item100width img {
   width: 100%; }
-
-/*# sourceMappingURL=style.css.map */
