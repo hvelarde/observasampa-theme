@@ -354,3 +354,10 @@ div.row {
 
 .item100width img {
   width: 100%; }
+
+#portal-personaltools {
+  display: none; }
+
+/* Logged in/out */
+.userrole-authenticated #portal-personaltools {
+  display: block; }

@@ -29,11 +29,16 @@ header {
   #logo img {
     float: left;
     margin: 0.2em 1em 0.2em 0;
-    max-height: 200px; }
+    max-height: 79px;
+    max-width: 277px;
+    min-height: 48px;
+    min-width: 170px;
+    width: 96%;
+    height: auto; }
 
 /* search */
 #portal-searchbox {
-  width: 300px;
+  width: 90%;
   height: 30px;
   float: left;
   text-align: right;
@@ -58,6 +63,9 @@ header {
 #acessibilidade {
   float: right; }
 
+#linkAltoContraste {
+  display: inline-block; }
+
 #acessibilidade a {
   margin-right: 2em;
   cursor: pointer; }
@@ -71,6 +79,9 @@ header {
   top: 3em; }
 
 /* Navigation */
+#btnav > i {
+  display: none; }
+
 nav {
   clear: both;
   font-size: 0.9em;
@@ -260,13 +271,15 @@ dl.portlet ul.navTree .navTreeCurrentItem {
   #second-header {
     position: fixed;
     left: 0;
-    top: 0;
+    top: 30px;
+    background-color: white;
     margin: 0;
-    z-index: 3; }
+    z-index: 3;
+    height: 100px; }
   #portal-searchbox {
     position: absolute;
     top: 18px;
-    width: 30vw;
+    width: calc(300% - 40px);
     margin-left: 20px; }
   #btnav {
     width: 40px;
@@ -323,15 +336,19 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     margin: 0;
     width: 220px; } }
 
+/*  Up to 600px */
+@media (max-width: 600px) {
+  #portal-searchbox {
+    width: calc(100% - 40px); } }
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #logo {
     width: 70%; }
   #acessibilidade {
     right: -120px;
+    font-size: 10px;
     position: absolute;
     top: 1em; }
   #linkAltoContraste {
-    display: block; }
-  #portal-searchbox {
-    width: calc(100% - 40px); } }
+    display: block; } }

@@ -465,3 +465,12 @@ div.row {
   }
 }
 
+/* Logged in/out */
+#portal-personaltools {
+    display: none;
+}
+.userrole-authenticated {
+  #portal-personaltools {
+      display: block;
+  }
+}
