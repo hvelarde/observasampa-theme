@@ -276,7 +276,8 @@ h3 {
   margin-bottom: 0.5em;
 }
 #content{
-  margin: 1em -1em;
+  // Margem ajustada diretamente no .row
+  // margin: 1em -1em;
     .documentDescription, #description {
       color: #4d4d4d;
       font-weight: normal;
@@ -284,8 +285,9 @@ h3 {
     }
 }
 /***** Fine adjustments ****/
-div.row {
-  margin: 1em 0;
+#content .row {
+  margin: 1em -1em;
+  width: calc(100% + 2em);
 }
 /********** Tiles **********/
 .tile {

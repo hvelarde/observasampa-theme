@@ -10,8 +10,8 @@ header {
   width: calc(100% - 20px);
   background-color: #cccccc;
   padding: 5px 10px 30px;
-  margin: 15px 0px 0px 0px;
-  display: inline-block; }
+  display: inline-block;
+  height: 0px; }
 
 .primary-header > a {
   max-width: 40%;
@@ -148,7 +148,7 @@ nav {
     -webkit-box-shadow: 0 5px 10px #d6d6d6;
     box-shadow: 0 5px 10px #d6d6d6; }
   nav li:first-child a {
-    border-left: 0; }
+    padding-left: 0; }
   nav ul.submenu a.state-published:hover,
   nav .selected ul.submenu .state-published {
     color: #666666; }

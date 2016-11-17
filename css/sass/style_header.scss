@@ -15,9 +15,8 @@ header {
     width: calc(100% - 20px);
     background-color: #cccccc;
     padding: 5px 10px 30px;
-    margin: 15px 0px 0px 0px;
     display: inline-block;
-
+    height: 0px;
 }
 .primary-header > a {
   max-width: 40%;
@@ -156,7 +155,7 @@ nav {
           box-shadow: 0 5px 10px #d6d6d6;
         }
         &:first-child a {
-            border-left: 0;
+            padding-left: 0;
         }
     }
     ul.submenu a.state-published:hover,

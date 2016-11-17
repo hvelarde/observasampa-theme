@@ -198,16 +198,15 @@ h3 {
   line-height: 1.3em;
   margin-bottom: 0.5em; }
 
-#content {
-  margin: 1em -1em; }
-  #content .documentDescription, #content #description {
-    color: #4d4d4d;
-    font-weight: normal;
-    margin-bottom: 1em; }
+#content .documentDescription, #content #description {
+  color: #4d4d4d;
+  font-weight: normal;
+  margin-bottom: 1em; }
 
 /***** Fine adjustments ****/
-div.row {
-  margin: 1em 0; }
+#content .row {
+  margin: 1em -1em;
+  width: calc(100% + 2em); }
 
 /********** Tiles **********/
 .tile {
@@ -355,9 +354,9 @@ div.row {
 .item100width img {
   width: 100%; }
 
+/* Logged in/out */
 #portal-personaltools {
   display: none; }
 
-/* Logged in/out */
 .userrole-authenticated #portal-personaltools {
   display: block; }
