@@ -37,6 +37,7 @@ header {
     height: auto; }
 
 /* search */
+/* search icon: &#xf002; */
 #portal-searchbox {
   width: 90%;
   height: 30px;
@@ -54,8 +55,9 @@ header {
     padding: 0.5em;
     border: 0;
     background: transparent;
-    text-indent: -99999px;
-    width: 35px; }
+    width: 35px;
+    font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    cursor: pointer; }
 
 #LSResult {
   margin-top: 0; }

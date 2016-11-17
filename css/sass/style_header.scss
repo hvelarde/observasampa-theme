@@ -45,6 +45,7 @@ header {
   }
 }
 /* search */
+/* search icon: &#xf002; */
 #portal-searchbox {
   width: 90%;
   height: 30px;
@@ -60,11 +61,12 @@ header {
       background: transparent;
   }
   input.searchButton {
-      padding: 0.5em;
-      border: 0;
-      background: transparent;
-      text-indent: -99999px;
-      width: 35px;
+    padding: 0.5em;
+    border: 0;
+    background: transparent;
+    width: 35px;
+    font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    cursor: pointer;
   }
 }
 #LSResult {

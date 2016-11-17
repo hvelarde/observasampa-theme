@@ -16,6 +16,9 @@
           color: #ffffff;
       }
     }
+    #second-header {
+      background-color: black;
+    }
     header a{
       &:link, &:hover, &:visited {
         color: #ffffff !important;

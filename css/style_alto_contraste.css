@@ -10,6 +10,8 @@
   .contraste #main-header nav ul {
     background: #000000;
     color: #ffffff; }
+  .contraste #second-header {
+    background-color: black; }
   .contraste header a:link, .contraste header a:hover, .contraste header a:visited {
     color: #ffffff !important; }
   .contraste .footerContainer {
@@ -30,5 +32,3 @@
 /* Portrait tablet to landscape and desktop */
 /* Landscape phone to portrait tablet */
 /* Landscape phones and down */
-
-/*# sourceMappingURL=style_alto_contraste.css.map */
