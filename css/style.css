@@ -341,7 +341,13 @@ h3 {
   div.cell {
     float: none;
     width: 100% !important;
-    margin-left: -100% !important; } }
+    margin-left: -100% !important; }
+  .galleria-info {
+    font-size: 8px !important;
+    width: 60% !important;
+    top: 1em !important; }
+  .galleria-info-title {
+    padding: 15px !important; } }
 
 .selectGrey {
   background: #ccc;
