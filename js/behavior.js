@@ -1,5 +1,4 @@
-
-	$(document).ready(function($) {
-		$(".searchButton").first().val("");
-		console.log("Shazam");
-	});
+  $(document).ready(function($) {
+    $(".searchButton").first().val("");
+    console.log("Shazam");
+  });
