@@ -32,11 +32,11 @@
         <replace css:content-children="#portal-logo" css:theme-children="#logo a" />
 
         <!-- Header -->
+        <replace css:content="#smdu-identity-bar" css:theme="#smdu-identity-bar" />
         <replace css:content="#portal-personaltools" css:theme="#user" />
         <replace css:content-children="#portal-globalnav" css:theme-children="nav ul" />
         <drop css:content=".searchSection" />
         <replace css:content="#portal-searchbox" css:theme="#search" />
-
 
         <!--Content -->
         <merge attributes="class" css:content="body" css:theme="body" />
@@ -53,9 +53,7 @@
             <drop css:theme="#column-two" />
         </rules>
 
-        <!--Footer -->
-        <after css:content="#portal-siteactions" css:theme="p#footer-info" />
-
+        <replace css:content="#portal-footer-wrapper" css:theme-children="#portal-footer-wrapper" />
     </rules>
 
 </rules>
